@@ -1,0 +1,55 @@
+cmnMemory.lo: common/cmnMemory.c common/include/cmnMemory.h \
+ common/include/voMem.h common/include/voIndex.h common/include/voType.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/stdlib.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/crtdefs.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/_mingw.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/vadefs.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/limits.h \
+ C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/syslimits.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/limits.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/malloc.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/string.h \
+ C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/string_s.h
+
+common/include/cmnMemory.h:
+
+common/include/voMem.h:
+
+common/include/voIndex.h:
+
+common/include/voType.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/stdlib.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/crtdefs.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/_mingw.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/_mingw_mac.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/_mingw_secapi.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/vadefs.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/limits.h:
+
+C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed/syslimits.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/limits.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/malloc.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/string.h:
+
+C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/string_s.h:
