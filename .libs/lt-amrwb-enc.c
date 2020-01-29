@@ -159,7 +159,7 @@ volatile const char * MAGIC_EXE = "%%%MAGIC EXE variable%%%";
 const char * LIB_PATH_VARNAME = "PATH";
 const char * LIB_PATH_VALUE   = "D:\\HOME\\AMR_Codec\\vo-amrwbenc-0.1.3\\.libs;";
 const char * EXE_PATH_VARNAME = "PATH";
-const char * EXE_PATH_VALUE   = "D:\\HOME\\AMR_Codec\\vo-amrwbenc-0.1.3\\.libs;C:\\msys32\\usr\\local\\lib;C:\\msys32\\usr\\local\\bin;";
+const char * EXE_PATH_VALUE   = "D:\\HOME\\AMR_Codec\\vo-amrwbenc-0.1.3\\.libs;C:\\msys64\\mingw64\\lib;C:\\msys64\\mingw64\\bin;";
 const char * TARGET_PROGRAM_NAME = "amrwb-enc.exe"; /* hopefully, no .exe */
 
 #define LTWRAPPER_OPTION_PREFIX         "--lt-"
@@ -1025,8 +1025,8 @@ void lt_dump_script (FILE* f)
   fputs ("\n", f);
   fputs ("  if test -f \"$progdir/$program\"; then\n", f);
   fputs ("    # Add the dll search path components to the executable PATH\n", f);
-  fputs ("    PATH=/d/HOME/AMR_Codec/vo-amrwbenc-0.1.3/.libs:/usr/local/lib:/usr/local/bi", f);
-  fputs ("n:$PATH\n", f);
+  fputs ("    PATH=/d/HOME/AMR_Codec/vo-amrwbenc-0.1.3/.libs:/mingw64/lib:/mingw64/bin:$P", f);
+  fputs ("ATH\n", f);
   fputs ("\n", f);
   fputs ("    # Add our own library path to PATH\n", f);
   fputs ("    PATH=\"/d/HOME/AMR_Codec/vo-amrwbenc-0.1.3/.libs:$PATH\"\n", f);
